@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import LogoImg from '../assets/random_logo.jpg'; 
+import LogoImg from '../assets/logo.jpg'; 
 
 export default function Footer() {
   return (
