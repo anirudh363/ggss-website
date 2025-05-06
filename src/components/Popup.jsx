@@ -11,13 +11,13 @@ const Popup = ({ display, onClose }) => {
       <div className="popup">
         <div className="popup__content">
           <p>Join us help make a difference!</p>
-          <Link to="/joinus" target="_blank" rel="noopener noreferrer" className="popup__link">
+          <Link to="/joinus" className="popup__link">
             Learn More
           </Link>
         </div>
         <div className="popup__content">
           <p>Find your nearest GGSS branch!</p>
-          <Link to="/branches" target="_blank" rel="noopener noreferrer" className="popup__link">
+          <Link to="/branches" className="popup__link">
             Find Branch
           </Link>
         </div>

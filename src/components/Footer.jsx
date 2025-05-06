@@ -23,6 +23,7 @@ export default function Footer() {
         <h3>Quick Links</h3>
         <ul>
             <li>< Link to='/joinus'>Join Us</Link></li>
+          <li><Link to="/about">About Us</Link></li>
             <li><Link to="/branches">Branches</Link></li>
           <li><Link to="/classes">Classes</Link></li>
           <li><Link to="/pratibha">Pratibha</Link></li>

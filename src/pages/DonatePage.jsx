@@ -1,11 +1,12 @@
 import React from 'react';
 import BackToTop from '../components/BackToTop.jsx';
+import HeroWithoutStrip from '../components/HeroWithoutStrip.jsx';
 
 export default function DonatePage() {
   return (
     <div className='donate-page page'>
-      <h1 className='hero__title'>Donate</h1>
-      <p>Under development...राम राम राम</p>
+      <HeroWithoutStrip page={{title: "Donate"}} />
+      <p>Page under development...राम राम राम</p>
       
       <BackToTop />
     </div>

@@ -13,6 +13,7 @@ import SummerCampPage from './pages/SummerCampPage';
 import AnnualDayPage from './pages/AnnualDayPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import AboutUsPage from './pages/AboutUsPage';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <div className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<AboutUsPage />} />
             <Route path="/activities" element={<ActivitiesPage />} />
             <Route path="/branches" element={<BranchesPage />} />
             <Route path="/classes" element={<ClassesPage />} />

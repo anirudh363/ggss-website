@@ -436,6 +436,12 @@ html, body {
   margin: 0 1rem;
 }
 
+.nostrip {
+  overflow: hidden;
+  width: 100%;
+  background-color: var(--secondary-light-color-color);
+}
+
 .hero__strip-container {
   overflow: hidden;
   width: 100%;
