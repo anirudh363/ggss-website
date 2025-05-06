@@ -1,5 +1,6 @@
 import React from 'react';
 import ActivitiesImg from '../assets/activities.png'; 
+import { Link } from 'react-router-dom';
 
 export default function Activities() {
   return (
@@ -23,7 +24,7 @@ export default function Activities() {
           <li>GGSS collaborates with trusts like P.N. Ramachandra Iyer Trust and Sanatana Dharma Samrakshana Parishad.</li>
         </ul>
         <div className="know_more">
-          <a href="#">Know More</a>
+          <Link to="/activities">Know More</Link>
         </div>
       </div>
     </div>

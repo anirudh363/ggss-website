@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MaataImg from '../assets/maata.png'; 
 
 export default function About() {
@@ -19,7 +20,7 @@ export default function About() {
           She learnt Carnatic music from Sri. Balaganesha Iyer for 15 years from the age of seven. Smt. Ananthalakshmi Natarajan has done her post-graduation in mathematics and is a retired teacher of Stella Maris High School, Vyalikaval, Bangalore.
         </p>
         <div className="know_more">
-        <a href="#">Know More</a>
+        <Link to="/maata">Know More</Link>
       </div>
       </div>
       

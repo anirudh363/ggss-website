@@ -3,14 +3,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import LogoImg from '../assets/logo.jpg'; 
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
+
+
+
   return (
     <footer className="footer">
       <div className="footer__section footer__logo">
-        <a href="/">
+        <Link to="/" >
           <img src={LogoImg} alt="GGSS Logo" />
-        </a>
+        </Link>
       </div>
 
 
@@ -18,16 +22,17 @@ export default function Footer() {
       <div className="footer__section">
         <h3>Quick Links</h3>
         <ul>
-            <li>< a href='https://ggss.org.in/joinus'>Join Us</a></li>
-            <li><a href="https://ggss.org.in/branches">Branches</a></li>
-          <li><a href="https://class.ggss.org.in">Classes</a></li>
-          <li><a href="https://pratibha.ggss.org.in">Pratibha</a></li>
-          <li><a href="https://camp.ggss.org.in">Summer Camp</a></li>
-          <li><a href="https://study.ggss.org.in">Study Material</a></li>
-          <li><a href="https://guruvandanam.ggss.org.in">Guru Vandanam</a></li>
-          <li><a href="https://maata.ggss.org.in">Our Maata</a></li>
-          <li><a href="https://activities.ggss.org.in">Activities</a></li>
-          <li><a href="https://donate.ggss.org.in">Donate</a></li>
+            <li>< Link to='/joinus'>Join Us</Link></li>
+            <li><Link to="/branches">Branches</Link></li>
+          <li><Link to="/classes">Classes</Link></li>
+          <li><Link to="/pratibha">Pratibha</Link></li>
+          <li><Link to="/summercamp">Summer Camp</Link></li>
+          <li><Link to="/studymaterial">Study Material</Link></li>
+          <li><Link to="/guruvandanam">Guru Vandanam</Link></li>
+          <li><Link to="/maata">Our Maata</Link></li>
+          <li><Link to="/activities">Activities</Link></li>
+          <li><Link to="/annualday">Annual Day</Link></li>
+          <li><Link to="/donate">Donate</Link></li>
         </ul>
       </div>
 

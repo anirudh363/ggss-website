@@ -1,39 +1,47 @@
 import React from 'react';
 import Logo from '../assets/logo.jpg';
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const scrollToFooter = (e) => {
-    e.preventDefault(); // Prevent the default anchor click behavior
+    e.preventDefault();
     const footer = document.querySelector('.footer');
-    footer.scrollIntoView({ behavior: 'smooth' }); // Scroll smoothly to the footer
+    footer.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const backToTop = (e) => {
-    e.preventDefault(); // Prevent the default anchor behavior
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page
+  const handleHomeClick = (e) => {
+    if (location.pathname === '/') {
+      e.preventDefault(); // prevent navigation if already on home
+      window.scrollTo({ top: 0, behavior: 'smooth' }); // scroll to top
+    } else {
+      navigate('/'); // navigate to home if on another page
+    }
   };
 
   return (
     <div className='navbar'>
       <div className='navbar__logo'>
-        <a href='/' onClick={backToTop}>
+        <Link to='/'>
           <img src={Logo} alt='GGSS Logo' />
-        </a>
+        </Link>
         <h2>GGSS - गीत-गोविन्द-संस्कृत-सङ्घः</h2>
       </div>
       <div className='navbar__links'>
-        <a href='#'>Home</a>
-        <a href='#'>Classes</a>
-        <a href='#'>Maata</a>
-        <a href='#'>Guru Vandanam</a>
-        <a href='#'>Activities</a>
-        <a href='' onClick={scrollToFooter}>Contact Us</a>
+        <a href="/" onClick={handleHomeClick} className={location.pathname === '/' ? "active" : ""}>Home</a>
+        <NavLink to="/classes" className={({ isActive }) => isActive ? "active" : ""}>Classes</NavLink>
+        <NavLink to="/branches" className={({ isActive }) => isActive ? "active" : ""}>Branches</NavLink>
+        <NavLink to="/maata" className={({ isActive }) => isActive ? "active" : ""}>Maata</NavLink>
+        <NavLink to="/guruvandanam" className={({ isActive }) => isActive ? "active" : ""}>Guru Vandanam</NavLink>
+        <NavLink to="/activities" className={({ isActive }) => isActive ? "active" : ""}>Activities</NavLink>
+        <Link onClick={scrollToFooter}>Contact Us</Link>
       </div>
-      <div className='donate'>
-        <a href='#'>Donate</a>
+      <div className='navbar__actions'>
+        <Link to="/donate" className="action-btn donate">Donate</Link>
+        <Link to="/joinus" className="action-btn joinus">Join Us</Link>
       </div>
     </div>
   );
 }
-

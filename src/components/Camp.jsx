@@ -1,5 +1,6 @@
 import React from 'react';
 import CampImg from '../assets/summercamp.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Camp() {
   return (
@@ -8,7 +9,7 @@ export default function Camp() {
             <h2 className='subheading'>Summer Camp</h2>
             <p>Our summer camp is a unique opportunity for children to immerse themselves in the rich traditions of our culture. Through engaging activities, they will learn about our heritage, values, and practices in a fun and interactive way.</p>
             <div className="know_more">
-            <a href="#">Know More</a>
+            <Link to="/summercamp">Know More</Link>
             </div>
         </div>
         <div className="camp__image">

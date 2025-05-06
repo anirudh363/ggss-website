@@ -1,5 +1,6 @@
 import React from 'react';
 import GuruImg from '../assets/guru.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Guru() {
   return (
@@ -14,7 +15,7 @@ In the evening, the Jagadguru meets the GGSS devotees, where we present a small 
 
 The day ends with another darshan of Sharadamba and participation in the Dindi utsavam before returning to Bangalore.</p>
             <div className="know_more">
-            <a href="#">Know More</a>
+            <Link to="guruvandanam">Know More</Link>
             </div>
         </div>
         <div className="guru__image">

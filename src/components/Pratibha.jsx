@@ -1,5 +1,6 @@
 import React from 'react';
 import PratibhaImg from '../assets/pratibha.jpg'; 
+import { Link } from 'react-router-dom';
 
 export default function Pratibha() {
   return (
@@ -17,7 +18,7 @@ export default function Pratibha() {
             <li>Open to students of classes 2 to 10 from schools across Bangalore.</li>
         </ul>
         <div className="know_more">
-        <a href="#">Know More</a>
+        <Link to="/pratibha">Know More</Link>
       </div>
       </div>
     </div>

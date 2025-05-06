@@ -1,5 +1,6 @@
 import React from 'react';
 import AnnualImg from '../assets/annual.png'; 
+import { Link } from 'react-router-dom';
 
 export default function Annual() {
   return (
@@ -18,7 +19,7 @@ export default function Annual() {
                <li>Winners from Aamodaa competitions are felicitated with valuable Sanskrit books to encourage further learning.</li>
            </ul>
            <div className="know_more">
-           <a href="#">Know More</a>
+           <Link to="/annualday">Know More</Link>
          </div>
          </div>
        </div>

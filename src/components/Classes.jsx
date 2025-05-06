@@ -1,5 +1,6 @@
 import React from 'react';
 import ClassImage from '../assets/class.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Classes() {
   return (
@@ -15,7 +16,7 @@ export default function Classes() {
                     </li>
                 </ul>
                 <div className="know_more">
-                <a href="#">Know More</a>
+                <Link to="/classes">Know More</Link>
               </div>
               </div>
               <div className="class__image">
