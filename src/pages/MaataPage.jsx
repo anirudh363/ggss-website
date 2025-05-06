@@ -3,7 +3,9 @@ import BackToTop from '../components/BackToTop.jsx';
 
 export default function MaataPage() {
   return (
-    <div className='maata-page'>
+    <div className='maata-page page'>
+      <h1 className='hero__title'>Maata</h1>
+      <p>Under development...राम राम राम</p>
       
       <BackToTop />
     </div>
