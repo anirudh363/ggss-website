@@ -1,0 +1,184 @@
+:root {
+    --primary-color: #e0d7c8;
+    --secondary-color: #b83a00;
+    --accent-color: #9d0658;
+    --light-color: #fcf0e9;
+    --secondary-light-color: #fefae0;
+    --text-color: #976149;
+  
+    --nav-padding-y: 1rem;
+    --nav-padding-x: 2rem;
+    --nav-gap: 2rem;
+    --logo-size: 3.5rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--secondary-light-color);
+    color: var(--text-color);
+    font-size: var(--font-size-base);
+  }
+  
+  .divider {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--secondary-light-color);
+    margin: 1rem 0;
+  }
+  
+  .component {
+    max-width: 90%;
+    background-color: var(--light-color);
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.08);
+  }
+  
+  /* ---------------- NAVBAR ---------------- */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: var(--nav-padding-y) var(--nav-padding-x);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .navbar__logo img {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.125rem solid var(--accent-color);
+  }
+  
+  .navbar__toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar__links {
+    display: flex;
+    gap: var(--nav-gap);
+  }
+  
+  .navbar__links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: var(--font-size-lg);
+    transition: color 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .navbar__links a:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+  }
+  
+  .donate a {
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: var(--font-size-lg);
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate a:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* ---------------- COMMON SECTION STYLES ---------------- */
+  .about, .class, .pratibha, .camp, .annual, .guru {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    color: var(--text-color);
+    flex-wrap: wrap;
+  }
+  
+  .about__image img,
+  .class__image img,
+  .pratibha__image img,
+  .camp__image img,
+  .annual__image img,
+  .guru__image img {
+    width: 100%;
+    max-width: 18.75rem; /* 300px */
+    border-radius: 1rem;
+    border: 0.125rem solid var(--accent-color);
+    object-fit: cover;
+  }
+  
+  .about__text,
+  .class__text,
+  .pratibha__text,
+  .camp__text,
+  .annual__text,
+  .guru__text {
+    max-width: 43.75rem; /* 700px */
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+  
+  /* ---------------- RESPONSIVE NAVBAR ---------------- */
+  @media screen and (max-width: 768px) {
+    .navbar__toggle {
+      display: block;
+    }
+  
+    .navbar__links {
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 60%;
+      height: 100%;
+      background-color: var(--primary-color);
+      padding: 2rem;
+      gap: 1.5rem;
+      transition: right 0.3s ease;
+      z-index: 999;
+    }
+  
+    .navbar__links.open {
+      right: 0;
+    }
+  
+    .navbar__links a {
+      font-size: 1.25rem;
+    }
+  }
+  
