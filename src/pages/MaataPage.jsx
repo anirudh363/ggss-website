@@ -7,7 +7,6 @@ export default function MaataPage() {
     <div className='maata-page page'>
       <HeroWithoutStrip page={{title: "Our Guru - Maata"}}/>
       <p>Page under development...राम राम राम</p>
-      
       <BackToTop />
     </div>
   )

@@ -87,6 +87,10 @@ html, body {
   z-index: 1000;
 }
 
+.ggss-title {
+  letter-spacing: 0.5rem;
+}
+
 .navbar__logo {
   display: flex;
   align-items: center;
@@ -108,8 +112,19 @@ html, body {
   gap: var(--nav-gap);
   flex-wrap: wrap;
 }
+.sidebar__links {
+  display: flex;
+  flex-direction: column; /* Make links stack vertically */
+  gap: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.sidebar__links a {
+  max-width: fit-content;
+}
 
-.navbar__links a {
+.navbar__links a,
+.sidebar__links a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
@@ -119,12 +134,14 @@ html, body {
   border-radius: 0.5rem;
 }
 
-.navbar__links a:hover {
+.navbar__links a:hover,
+.sidebar__links a:hover {
   background-color: var(--accent-color);
   color: var(--primary-color);
 }
 
-.navbar__links .active {
+.navbar__links .active,
+.sidebar__links .active {
   background-color: var(--accent-color);
   color: var(--primary-color);
   border-radius: 0.5rem;
@@ -137,6 +154,14 @@ html, body {
   display: flex;
   gap: 1rem;
 }
+
+.sidebar__actions {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 1rem;
+  margin-top: auto;
+}
+ 
 
 .action-btn {
   padding: 0.5rem 1rem;
@@ -168,6 +193,42 @@ html, body {
   background-color: var(--primary-color);
   color: var(--text-color);
   border: 2px solid var(--accent-color);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: var(--primary-color); /* Add background so it's visible */
+  z-index: 1000;
+  padding: 1rem;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* better than solid background */
+  z-index: 999;
+}
+
+
+.menu-toggle {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+
 }
 
 
@@ -413,9 +474,12 @@ html, body {
 .hero__sanskrit {
   font-family: 'Noto Serif Devanagari', serif;
   font-size: 1.25rem;
-  color: #7b3f00;
+  color: var(--text-color);
   max-width: 150px;
   line-height: 1.5;
+  white-space: pre-line; /* Respect <br> tags */
+  flex-shrink: 0;        /* Prevent from shrinking too small */
+  text-align: center;
 }
 
 .hero__shree {
@@ -434,6 +498,7 @@ html, body {
   color: #b22222;
   flex-grow: 1;
   margin: 0 1rem;
+  text-align: center;
 }
 
 .nostrip {
@@ -468,20 +533,64 @@ html, body {
   }
 }
 
-@media (max-width: 768px) {
+.english__title {
+  word-spacing: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.title__container {
+  display: none;
+  
+}
+
+.title__container h1 {
+  font-size: 1.5rem;
+}
+
+.title__container .english__title {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 900px) {
   .hero__top {
-    flex-direction: column;
-    gap: 1rem;
+    flex-wrap: nowrap;        /* prevent vertical stacking */
+    flex-direction: row;      /* enforce horizontal layout */
+    gap: 0.5rem;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 
-  .hero__title {
-    font-size: 1.8rem;
+  .hero__title-strip {
+    display: none;
+  }
+  
+  .title__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero__sanskrit {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    max-width: 100px;
+    line-height: 1.3;
+    white-space: pre-line;
+    flex-shrink: 0;
+    text-align: center;
+  }
+
+  .hero__shree {
+    font-size: 1.2rem;
+    top: 6rem;                /* Adjust if needed */
   }
 }
+
+
+
+
 
 /* Full width wrapper */
 .shloka-cards__wrapper {

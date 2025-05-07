@@ -15,12 +15,15 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import AboutUsPage from './pages/AboutUsPage';
 
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   return (
     <div className="app-wrapper">
       <Router>
         <Navbar />
         <div className="main-content">
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
