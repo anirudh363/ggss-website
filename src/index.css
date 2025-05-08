@@ -160,6 +160,7 @@ html, body {
   flex-direction: column; /* Stack buttons vertically */
   gap: 1rem;
   margin-top: auto;
+  max-width: fit-content;
 }
  
 
