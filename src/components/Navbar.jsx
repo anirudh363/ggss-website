@@ -25,7 +25,7 @@ export default function Navbar() {
   };
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 1350);
+    const handleResize = () => setIsMobile(window.innerWidth < 1400);
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -34,7 +34,7 @@ export default function Navbar() {
     <div className='navbar'>
       <div className='navbar__logo'>
         <Link to='/'><img src={Logo} alt='GGSS Logo' /></Link>
-        <h2 className='ggss-title'>GGSS</h2>
+        {/* <h2 className='ggss-title'>GGSS</h2> */}
       </div>
 
       {isMobile ? (
@@ -52,10 +52,11 @@ export default function Navbar() {
           <div className='navbar__links'>
             <a href="/" onClick={handleHomeClick} className={location.pathname === '/' ? "active" : ""}>Home</a>
             <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About Us</NavLink>
-            <NavLink to="/maata" className={({ isActive }) => isActive ? "active" : ""}>Maata</NavLink>
+            <NavLink to="/maata" className={({ isActive }) => isActive ? "active" : ""}>Our Guru Maata</NavLink>
             <NavLink to="/classes" className={({ isActive }) => isActive ? "active" : ""}>Classes</NavLink>
             <NavLink to="/branches" className={({ isActive }) => isActive ? "active" : ""}>Branches</NavLink>
             <NavLink to="/activities" className={({ isActive }) => isActive ? "active" : ""}>Activities</NavLink>
+            <NavLink to="/events" className={({ isActive }) => isActive ? "active" : ""}>Events & Gallery</NavLink>
             <Link onClick={scrollToFooter}>Contact Us</Link>
           </div>
           <div className='navbar__actions'>

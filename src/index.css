@@ -590,73 +590,6 @@ html, body {
 }
 
 
-
-
-
-/* Full width wrapper */
-.shloka-cards__wrapper {
-  width: 100vw;
-  padding: 2rem 0;
-}
-
-/* Inner component styling */
-.shloka-cards.component {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Card container - responsive layout */
-.shloka-cards__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  padding: 1rem;
-}
-
-/* Each card */
-.shloka-card {
-  border-radius: 1rem;
-  padding: 1.5rem;
-  width: 400px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-/* Image */
-.shloka-card img {
-  width: 100%;
-  border-radius: 0.5rem;
-}
-
-/* Shloka text */
-.shloka-text {
-  font-family: 'Noto Serif Devanagari', serif;
-  margin-top: 1rem;
-  font-size: 1.1rem;
-  color: #222;
-  white-space: pre-line;
-}
-
-/* Meaning text */
-.shloka-meaning {
-  margin-top: 1rem;
-  font-size: 0.95rem;
-  color: #555;
-}
-
-/* Stack on small screens */
-@media (max-width: 768px) {
-  .shloka-cards__container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .shloka-card {
-    width: 90%;
-  }
-}
-
 .footer {
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -849,3 +782,187 @@ html, body {
   padding: 2rem;
   gap: 2rem;
 }
+
+.calendar {
+  display: flex;
+  gap: 2.5rem; /* 40px */
+  padding: 1.25rem; /* 20px */
+  flex-wrap: wrap;
+}
+
+.calendar-left {
+  flex: 2;
+  min-width: 0; /* for flex shrink on small screens */
+}
+
+.calendar-left h2 {
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 0.9375rem; /* 15px */
+  border-bottom: 0.125rem solid #ccc; /* 2px */
+  padding-bottom: 0.3125rem; /* 5px */
+}
+
+.event-scroll {
+  max-height: 20.125rem; /* 450px */
+  overflow-y: auto;
+  padding-right: 0.5rem; /* 8px */
+}
+
+.event-scroll::-webkit-scrollbar {
+  width: 0.5rem; /* 8px */
+}
+
+.event-scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 0.25rem;
+}
+
+.event-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.event-item {
+  margin-bottom: 1.25rem; /* 20px */
+  padding: 0.625rem; /* 10px */
+  border-left: 0.25rem solid #6c63ff; /* 4px */
+  background-color: #f9f9f9;
+  transition: background 0.3s;
+}
+
+.event-item:hover {
+  background-color: #f0f0ff;
+}
+
+.event-date {
+  font-weight: bold;
+  font-size: 1rem; /* 16px */
+  color: #444;
+}
+
+.event-details {
+  margin-top: 0.3125rem; /* 5px */
+  margin-left: 0.625rem; /* 10px */
+}
+
+.event-title {
+  display: block;
+  font-size: 0.9375rem; /* 15px */
+  color: #222;
+}
+
+.event-time {
+  font-size: 0.875rem; /* 14px */
+  color: #666;
+}
+
+.calendar-right {
+  flex: 1;
+  border-left: 0.0625rem solid #ddd; /* 1px */
+  padding-left: 1.875rem; /* 30px */
+  min-width: 0;
+}
+
+.calendar-right h3 {
+  font-size: 1.25rem; /* 20px */
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+.calendar-right p {
+  font-size: 0.875rem; /* 14px */
+  margin-bottom: 0.9375rem; /* 15px */
+}
+
+.social-links a {
+  margin-right: 0.9375rem; /* 15px */
+  font-size: 1.5rem;
+  color: #444;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #6c63ff;
+}
+
+/* 📱 Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .calendar {
+    flex-direction: column;
+  }
+
+  .calendar-right {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+}
+
+
+.shloka-cards .cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.shloka-card {
+  flex: 1 1 calc(33% - 1.5rem);
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 👇 Uniform image size */
+.shloka-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+/* 👇 Consistent title spacing */
+.shloka-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+  min-height: 2.5rem; /* adjust to match one line */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 👇 Shloka text block */
+.shloka-text {
+  white-space: pre-wrap;
+  font-family: 'Noto Serif Devanagari', serif;
+  font-size: 0.85rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+  min-height: 7rem;  /* force all to align */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* 👇 Meaning block */
+.shloka-meaning {
+  font-size: 0.95rem;
+  color: #666;
+  min-height: 2.5rem;  /* match all to same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+

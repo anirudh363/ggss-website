@@ -32,6 +32,7 @@ export default function Sidebar({ onClose }) {
         <NavLink to="/classes" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Classes</NavLink>
         <NavLink to="/branches" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Branches</NavLink>
         <NavLink to="/activities" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Activities</NavLink>
+        <NavLink to="/events" className={({ isActive }) => isActive ? "active" : ""}>Events & Gallery</NavLink>
         <Link onClick={scrollToFooter}>Contact Us</Link>
       </div>
       <div className="sidebar__actions">

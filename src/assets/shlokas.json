@@ -1,8 +1,3 @@
-import React from 'react';
-import Shloka1Img from '../assets/gita.png';
-import Shloka2Img from '../assets/stutikusumanjali.png';
-import Shloka3Img from '../assets/jayadeva.png';
-
 const shlokas = [
   {
     image: Shloka1Img,
@@ -21,31 +16,13 @@ const shlokas = [
     meaning: "Guru is everything; I worship only the Guru. I am but a child of the Guru—protect me, O Guru!",
   },
   {
-    image: Shloka3Img,
-    title: "नित्यं श्री जयदेवसरस्वती",
-    text: 
+    "image": Shloka3Img,
+    "title": "नित्यं श्री जयदेवसरस्वती",
+    "text": 
       "मेघैर्मेदुरमम्बरं वनभुवः श्यामास्तमालद्रुमैः\n" +
       "नक्तं भीरुरयं त्वमेव तदिमं राधे गृहं प्रापय ।\n" +
       "इत्थं नन्दनिदेशितश्चलितयोः प्रत्यध्वकुञ्जद्रुमं\n" +
       "राधामाधवयोर्जयन्ति यमुनाकूले रहःकेलयः ॥ १ ॥",
-    meaning: "Glory to the secret divine sports of Radha and Madhava near the Yamuna, as guided by Nanda.",
+    "meaning": "Glory to the secret divine sports of Radha and Madhava near the Yamuna, as guided by Nanda.",
   },
-];
-
-export default function ShlokaCards() {
-  return (
-    <section className="shloka-cards component">
-      <div className="cards-container">
-        {shlokas.map((shloka, index) => (
-          <div className="shloka-card" key={index}>
-            <img src={shloka.image} alt={shloka.title} className="shloka-image" />
-            <h3 className="shloka-title">{shloka.title}</h3>
-            <pre className="shloka-text">{shloka.text}</pre>
-            <p className="shloka-meaning">{shloka.meaning}</p>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
-
+]

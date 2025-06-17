@@ -13,10 +13,12 @@ import Activities from '../components/Activities';
 import Footer from '../components/Footer';
 import BackToTop from '../components/BackToTop';
 import Popup from '../components/Popup';
+import Calendar from '../components/Calendar';
 
 export default function Home() {
 
-    const [showPopup, setShowPopup] = useState(true);
+    // Change to true to show the popup
+    const [showPopup, setShowPopup] = useState(false);
     
     const closePopup = () => setShowPopup(false);
 
@@ -25,9 +27,11 @@ export default function Home() {
         <div className='home'>
               <Hero />
               <Divider />
+              <Calendar />
+              <Divider />
               <About />
-              {/* <Divider />
-              <ShlokaCards /> */}
+              <Divider /> 
+              <ShlokaCards />
               <Divider />
               <Classes />
               <Divider />

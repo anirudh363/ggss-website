@@ -4,6 +4,7 @@ import ActivitiesPage from './pages/ActivitiesPage';
 import BranchesPage from './pages/BranchesPage';
 import ClassesPage from './pages/ClassesPage';
 import DonatePage from './pages/DonatePage';
+import EventsPage from './pages/EventsPage';
 import GuruVandanamPage from './pages/GuruVandanamPage';
 import JoinUsPage from './pages/JoinUsPage';
 import MaataPage from './pages/MaataPage';
@@ -32,6 +33,7 @@ function App() {
             <Route path="/branches" element={<BranchesPage />} />
             <Route path="/classes" element={<ClassesPage />} />
             <Route path="/donate" element={<DonatePage />} />
+            <Route path="/events" element={<EventsPage />} />
             <Route path="/guruvandanam" element={<GuruVandanamPage />} />
             <Route path="/joinus" element={<JoinUsPage />} />
             <Route path="/maata" element={<MaataPage />} />
