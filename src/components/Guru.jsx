@@ -14,13 +14,13 @@ The day begins with a visit to the sacred river Tunga for ablutions, followed by
 In the evening, the Jagadguru meets the GGSS devotees, where we present a small program with shloka recitation, Bhagavadgita recitation, a Sanskrit drama, and offer respects to scholars. The program concludes with blessings and mantrakshatas from the Jagadguru.
 
 The day ends with another darshan of Sharadamba and participation in the Dindi utsavam before returning to Bangalore.</p>
-            <div className="know_more">
+            {/* <div className="know_more">
             <Link to="guruvandanam">Know More</Link>
-            </div>
+            </div> */}
         </div>
-        {/* <div className="guru__image">
+        <div className="guru__image">
             <img src={GuruImg} alt="Guru Image" />
-        </div> */}
+        </div>
     </div>
   )
 }

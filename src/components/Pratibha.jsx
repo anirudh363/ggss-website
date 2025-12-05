@@ -17,9 +17,9 @@ export default function Pratibha() {
             <li>Winners receive valuable books like the Valmiki Ramayana, Srimad Bhagavatam, Bhagavadgita, and more.</li>
             <li>Open to students of classes 2 to 10 from schools across Bangalore.</li>
         </ul>
-        <div className="know_more">
+        {/* <div className="know_more">
         <Link to="/pratibha">Know More</Link>
-      </div>
+      </div> */}
       </div>
     </div>
   )
