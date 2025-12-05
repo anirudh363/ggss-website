@@ -52,12 +52,13 @@ export default function Navbar() {
           <div className='navbar__links'>
             <a href="/" onClick={handleHomeClick} className={location.pathname === '/' ? "active" : ""}>Home</a>
             <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About Us</NavLink>
-            <NavLink to="/maata" className={({ isActive }) => isActive ? "active" : ""}>Our Guru Maata</NavLink>
+            {/* <NavLink to="/maata" className={({ isActive }) => isActive ? "active" : ""}>Our Guru Maata</NavLink> */}
             <NavLink to="/classes" className={({ isActive }) => isActive ? "active" : ""}>Classes</NavLink>
-            <NavLink to="/branches" className={({ isActive }) => isActive ? "active" : ""}>Branches</NavLink>
+            {/* <NavLink to="/branches" className={({ isActive }) => isActive ? "active" : ""}>Branches</NavLink> */}
             <NavLink to="/activities" className={({ isActive }) => isActive ? "active" : ""}>Activities</NavLink>
-            <NavLink to="/events" className={({ isActive }) => isActive ? "active" : ""}>Events & Gallery</NavLink>
-            <Link onClick={scrollToFooter}>Contact Us</Link>
+            {/* <NavLink to="/events" className={({ isActive }) => isActive ? "active" : ""}>Events & Gallery</NavLink> */}
+            {/* <Link onClick={scrollToFooter}>Contact Us</Link> */}
+            <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact Us</NavLink>
           </div>
           <div className='navbar__actions'>
             <Link to="/donate" className="action-btn donate">Donate</Link>

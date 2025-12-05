@@ -7,7 +7,7 @@ import DonatePage from './pages/DonatePage';
 import EventsPage from './pages/EventsPage';
 import GuruVandanamPage from './pages/GuruVandanamPage';
 import JoinUsPage from './pages/JoinUsPage';
-import MaataPage from './pages/MaataPage';
+import MaathaPage from './pages/MaathaPage';
 import PratibhaPage from './pages/PratibhaPage';
 import StudyMaterialPage from './pages/StudyMaterialPage';
 import SummerCampPage from './pages/SummerCampPage';
@@ -17,6 +17,7 @@ import Footer from './components/Footer';
 import AboutUsPage from './pages/AboutUsPage';
 
 import ScrollToTop from './components/ScrollToTop';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
@@ -36,11 +37,12 @@ function App() {
             <Route path="/events" element={<EventsPage />} />
             <Route path="/guruvandanam" element={<GuruVandanamPage />} />
             <Route path="/joinus" element={<JoinUsPage />} />
-            <Route path="/maata" element={<MaataPage />} />
+            <Route path="/maatha" element={<MaathaPage />} />
             <Route path="/pratibha" element={<PratibhaPage />} />
             <Route path="/studymaterial" element={<StudyMaterialPage />} />
             <Route path="/summercamp" element={<SummerCampPage />} />
             <Route path="/annualday" element={<AnnualDayPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
         <Footer />

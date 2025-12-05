@@ -14,6 +14,7 @@ import Footer from '../components/Footer';
 import BackToTop from '../components/BackToTop';
 import Popup from '../components/Popup';
 import Calendar from '../components/Calendar';
+import Maatha from '../components/Maatha';
 
 export default function Home() {
 
@@ -29,20 +30,22 @@ export default function Home() {
               <Divider />
               <Calendar />
               <Divider />
+              <Maatha />
+              <Divider />
               <About />
               <Divider /> 
               <ShlokaCards />
               <Divider />
               <Classes />
               <Divider />
-              <Pratibha />
+              {/* <Pratibha />
               <Divider />
               <Camp />
               <Divider />
               <Annual />
               <Divider />
               <Guru />
-              <Divider />
+              <Divider /> */}
               <Activities />
               <Divider />
               <BackToTop />

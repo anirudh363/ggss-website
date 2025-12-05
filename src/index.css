@@ -255,6 +255,10 @@ html, body {
 }
 
 .about__text {
+  font-size: 1.5rem;
+}
+
+.maatha__text {
   max-width: 700px;
   font-weight: 600;
   font-size: 1.05rem;
@@ -966,3 +970,137 @@ html, body {
   text-align: center;
 }
 
+/* NEW */
+
+/* Branches Section */
+.branches-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.branches-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: var(--secondary-color);
+}
+
+/* Grid Layout */
+.branches-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+/* Card Styles */
+.branch-card {
+  background: var(--light-color);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.branch-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.branch-card h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: var(--text-color);
+}
+
+/* Google Map Button */
+.map-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: var(--accent-color);
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.map-btn:hover {
+  background: var(--secondary-color);
+}
+
+.contact-details {
+  display: flex;
+  gap: 3rem;
+}
+
+
+
+/**********************
+  ACTIVITIES TABS
+**********************/
+.activities-tabs {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.activities-tabs {
+  margin-top: 40px;
+  background-color: var(--accent-color);
+}
+
+/* TAB BUTTONS */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid var(--accent-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect (same as .know_more a:hover) */
+.tab:hover {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  transform: scale(1.05);
+}
+
+.tab:active {
+  transform: scale(1);
+}
+
+/* ACTIVE TAB STATE */
+.tab.active {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  transform: scale(1.05);
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.tab-section {
+  margin-bottom: 40px;
+}

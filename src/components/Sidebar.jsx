@@ -28,9 +28,9 @@ export default function Sidebar({ onClose }) {
       <div className="sidebar__links">
         <a href="/" onClick={handleHomeClick} className={location.pathname === '/' ? 'active' : ''}>Home</a>
         <NavLink to="/about" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>About Us</NavLink>
-        <NavLink to="/maata" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Maata</NavLink>
+        {/* <NavLink to="/maata" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Maata</NavLink> */}
         <NavLink to="/classes" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Classes</NavLink>
-        <NavLink to="/branches" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Branches</NavLink>
+        {/* <NavLink to="/branches" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Branches</NavLink> */}
         <NavLink to="/activities" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Activities</NavLink>
         <NavLink to="/events" className={({ isActive }) => isActive ? "active" : ""}>Events & Gallery</NavLink>
         <Link onClick={scrollToFooter}>Contact Us</Link>

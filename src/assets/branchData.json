@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Vyalikaval (Main Branch)",
+    "head": "Abc",
+    "contact": "+91 98765 43210",
+    "address": "Vyalikaval, Bangalore",
+    "map": "https://maps.google.com/?q=Vyalikaval+Bangalore"
+  },
+  {
+    "name": "Vijayanagar",
+    "head": "Def",
+    "contact": "+91 98765 12345",
+    "address": "Vijayanagar, Bangalore",
+    "map": "https://maps.google.com/?q=Vijayanagar+Bangalore"
+  },
+  {
+    "name": "Sahakaranagara",
+    "head": "Xyz",
+    "contact": "+91 98765 99887",
+    "address": "Nanganallur, Chennai",
+    "map": "https://maps.google.com/?q=Nanganallur+Chennai"
+  }
+]
