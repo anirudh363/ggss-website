@@ -18,13 +18,20 @@ import AboutUsPage from './pages/AboutUsPage';
 
 import ScrollToTop from './components/ScrollToTop';
 import ContactPage from './pages/ContactPage';
+import CurtainBanner from './components/CurtainBanner';
+import { useState } from 'react';
 
 function App() {
+  const [showBanner, setShowBanner] = useState(true);
   return (
     <div className="app-wrapper">
+       <CurtainBanner
+        isVisible={showBanner}
+        onClose={() => setShowBanner(false)}
+      />
       <Router>
         <Navbar />
-        <div className="main-content">
+        <div className="main-content site-content">
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />

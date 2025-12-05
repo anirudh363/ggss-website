@@ -64,6 +64,9 @@ export default function Footer() {
           © {new Date().getFullYear()} Geetha Govinda Samskrita Sangha. All rights reserved.
         </p>
       </div>
+
+
+      
     </footer>
   );
 }
