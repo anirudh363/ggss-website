@@ -12,9 +12,9 @@ export default function Camp() {
             <Link to="/summercamp">Know More</Link>
             </div>
         </div>
-        <div className="camp__image">
+        {/* <div className="camp__image">
             <img src={CampImg} alt="Camp Image" />
-        </div>
+        </div> */}
 
     </div>
   )

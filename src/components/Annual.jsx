@@ -18,9 +18,9 @@ export default function Annual() {
                <li>They also host the event and interact with guests in Sanskrit, boosting their confidence.</li>
                <li>Winners from Aamodaa competitions are felicitated with valuable Sanskrit books to encourage further learning.</li>
            </ul>
-           <div className="know_more">
+           {/* <div className="know_more">
            <Link to="/annualday">Know More</Link>
-         </div>
+         </div> */}
          </div>
        </div>
   )

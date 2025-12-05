@@ -18,9 +18,9 @@ The day ends with another darshan of Sharadamba and participation in the Dindi u
             <Link to="guruvandanam">Know More</Link>
             </div>
         </div>
-        <div className="guru__image">
+        {/* <div className="guru__image">
             <img src={GuruImg} alt="Guru Image" />
-        </div>
+        </div> */}
     </div>
   )
 }
