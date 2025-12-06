@@ -28,7 +28,7 @@ export default function ActivitiesPage() {
         culturalComponents={[Guru, Jagannatha, Shankara, Navaratri]} 
       />
       
-      <section className="about component">
+      {/* <section className="about component">
         
         <div className="about__text"> 
           <p>Along with the curricular activities, GGSS also conducts many spiritual activities
@@ -77,7 +77,7 @@ organised by associated organisations such as P.N.Ramachandra Iyer trust and
 Sanatana Dharma Samrakshana Parishad.
 </p>
         </div>
-        </section>
+        </section> */}
 
        
       <BackToTop />
