@@ -1032,10 +1032,83 @@ html, body {
   background: var(--secondary-color);
 }
 
-.contact-details {
+/* CONTACT */
+/* Make entire section look cleaner */
+.big-sections {
   display: flex;
-  gap: 3rem;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+  align-items: center;
 }
+
+/* Card-style containers */
+.info-card {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 18px;
+  padding: 35px 28px;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.18);
+}
+
+/* Headers */
+.info-card h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Text */
+.info-card p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.email-line a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Big icon row */
+.big-icons {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 20px;
+}
+
+.big-icons a {
+  font-size: 36px;
+  transition: 0.25s ease;
+}
+
+.big-icons a:hover {
+  color: #a20d0d; /* Deep red-tint */
+  transform: scale(1.15);
+}
+
+/* Mobile-friendly */
+@media (max-width: 500px) {
+  .info-card h3 {
+    font-size: 26px;
+  }
+
+  .info-card p {
+    font-size: 18px;
+  }
+
+  .big-icons a {
+    font-size: 32px;
+  }
+}
+
 
 
 

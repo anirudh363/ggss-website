@@ -47,13 +47,13 @@ export default function Footer() {
       <div className="footer__section">
         <h3>Follow Us</h3>
         <div className="footer__icons">
-          <a href="https://facebook.com/ggss" target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/sanskritggss" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="https://youtube.com/@ggss" target="_blank" rel="noreferrer">
+          <a href="https://www.youtube.com/@GeethaGovindaSamskritaSangha" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faYoutube} />
           </a>
-          <a href="https://instagram.com/ggss" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/sanskrit_ggss" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a href="mailto:ggss.contact@gmail.com">
