@@ -1,5 +1,5 @@
 import React from 'react';
-import ClassImage from '../assets/class.jpg';
+import ClassImage from '../assets/class-2.jpeg';
 import { Link } from 'react-router-dom';
 
 export default function Classes() {

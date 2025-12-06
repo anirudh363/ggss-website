@@ -46,8 +46,8 @@ export default function Home() {
               <Divider />
               <Guru />
               <Divider /> */}
-              <Activities />
-              <Divider />
+              {/* <Activities />
+              <Divider /> */}
               <BackToTop />
         
               <Popup
