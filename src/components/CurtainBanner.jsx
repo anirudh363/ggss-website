@@ -8,7 +8,7 @@ export default function CurtainBanner({ isVisible, onClose }) {
       <div className="right-curtain"></div>
 
       <button className="open-btn" onClick={onClose}>
-        Enter Website
+        लोकार्पणम्
       </button>
     </div>
   );

@@ -1,0 +1,45 @@
+.carousel-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 380px; /* Portrait-friendly */
+  position: relative;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 5;   /* Portrait aspect ratio */
+  object-fit: contain;   /* Prevents cropping */
+  border-radius: 12px;
+  background: #000;       /* Looks good behind portrait images */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Dots */
+.carousel-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot.active {
+  background-color: #444;
+  transform: scale(1.2);
+}

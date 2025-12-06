@@ -14,11 +14,17 @@ import Guru from '../components/Guru.jsx';
 export default function ActivitiesPage() {
   return (
     <div className='activities-page page'>
-      <HeroWithoutStrip page={{title: "Spiritual Activities"}} />
+      <HeroWithoutStrip page={{title: "Activities"}} />
       {/* <p>Page under development...राम राम राम</p> */}
-      <div className="activities__image">
+      {/* <div className="activities__image">
               <img src={ActivitiesImg} alt="Spiritual Activities" />
-            </div>
+            </div> */}
+
+            <ActivitiesTabs 
+        literaryComponents={[Pratibha, Camp, Annual]}
+        culturalComponents={[Guru]} 
+      />
+      
       <section className="about component">
         
         <div className="about__text"> 
@@ -70,11 +76,7 @@ Sanatana Dharma Samrakshana Parishad.
         </div>
         </section>
 
-       <ActivitiesTabs 
-        literaryComponents={[Pratibha, Camp, Annual]}
-        culturalComponents={[Guru]} 
-      />
-      
+       
       <BackToTop />
     </div>
   )

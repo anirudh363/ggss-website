@@ -39,8 +39,8 @@ export default function Footer() {
 
       <div className="footer__section">
         <h3>Contact Us</h3>
-        <p>Email: <a href="mailto:ggss.contact@gmail.com">ggss.contact@gmail.com</a></p>
-        <p>Phone: +91-XXXXXXXXXX</p>
+        <p>Email: <a href="mailto:sanskritggss@gmail.com">sanskritggss@gmail.com</a></p>
+        
         <p>Managed by:<br /><strong>Sri P.N. Ramachandra Iyer Trust</strong></p>
       </div>
 

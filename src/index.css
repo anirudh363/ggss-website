@@ -521,12 +521,12 @@ html, body {
 .hero__strip {
   display: inline-block;
   white-space: nowrap;
-  animation: slide-left 40s linear infinite;
+  /* animation: slide-left 40s linear infinite; */
 }
 
 .hero__strip img {
   max-height: 200px;
-  width: auto;
+  width: 100%;
 }
 
 @keyframes slide-left {

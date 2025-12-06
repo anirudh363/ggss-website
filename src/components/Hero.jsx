@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroStrip from '../assets/hero-strip.png';
+import HeroStrip from '../assets/hero-strip-new.png';
 
 export default function Hero() {
   return (
@@ -10,7 +10,7 @@ export default function Hero() {
         </div>
         <p className='hero__shree'>श्रीः</p>
         
-        <h1 className="hero__title hero__title-strip">गीत-गोविन्द-संस्कृत-सङ्घः <br /> <span className='english__title'>GEETHA GOVINDA SAMSKRUTA SANGHA</span></h1>
+        <h1 className="hero__title hero__title-strip">गीत-गोविन्द-संस्कृत-सङ्घः <br /> <span className='english__title'>GEETA GOVINDA SAMSKRUTA SANGHA</span></h1>
         <div className="hero__sanskrit hero__sanskrit--right">
           <p>सद्गुरो पाहि<br />परमदयालो पाहि</p>
         </div>
@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
       <div className='title__container'>
           <h1 className='hero__title hero__title--strip'>गीत-गोविन्द-संस्कृत-सङ्घः</h1>
-          <h1 className='hero__title hero__title--strip english__title'>GEETHA GOVINDA SAMSKRUTA SANGHA</h1>
+          <h1 className='hero__title hero__title--strip english__title'>GEETA GOVINDA SAMSKRUTA SANGHA</h1>
         </div>
 
       <div className="hero__strip-container">
