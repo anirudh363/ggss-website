@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@100..900&display=swap');
+
 /* Global color variables */
 :root {
   --primary-color: #e0d7c8;
@@ -16,7 +18,9 @@
   --font-size-lg: 1.125rem;
 }
 
-
+.sanskrit {
+  font-family: "Noto Serif Devanagari", serif;
+}
 
 /* Reset default margins & paddings */
 * {
@@ -1123,6 +1127,14 @@ html, body {
   border: 1px solid #ddd;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
+.activities-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: var(--light-color);
+}
+
 
 .activities-tabs {
   margin-top: 40px;
