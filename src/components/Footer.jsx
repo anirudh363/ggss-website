@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faYoutube, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import LogoImg from '../assets/logo.jpg'; 
 import { Link } from 'react-router-dom';
@@ -59,6 +59,9 @@ export default function Footer() {
           <a href="mailto:ggss.contact@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
+          <a href='https://whatsapp.com/channel/0029VbATgxCFcowDkIDVwN2s'>
+                          <FontAwesomeIcon icon={faWhatsapp} />
+                          </a>
         </div>
         <p className="footer__copyright">
           © {new Date().getFullYear()} Geetha Govinda Samskrita Sangha. All rights reserved.

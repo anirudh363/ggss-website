@@ -19,9 +19,7 @@ export default function MaathaPage() {
 Iyer Trust, Bangalore.</h3>
 <h3>Founder - Geeta Govinda
 Samskrita Sangha</h3>
-<h3>Former Visiting Faculty: -
-Bharatiya Vidya Bhavan, Mumbai
-Sura Saraswathi Sabha, Sringeri.</h3>
+
 
 <section className='about component'>
   <div className='about__text'>
@@ -33,11 +31,13 @@ has done her post graduation in mathematics and is a retired teacher of
 Stella Maris High School, Vyalikaval, Bangalore. She represents a rare
 combination of sanskrit, shastras, vedic knowledge, music, mathematics,
 literature and general knowledge.</p>
+<br />
 <p>She hails from a very cultured and intellectual family. Born in the year
 1943, to a father, an astute mathematician, and a mother, a great
 Sanskrit pandit, who have laid foundation for her present day status. She
 learnt carnatic music from Sri.Balaganesha Iyer for 15 years from the age
 of seven.</p>
+<br />
 <p>Her mother’s teacher, Sri.Vaidyanatha Sastrigal, was later the teacher of
 Sringeri acharya Srimad Abhinava Vidyatheertha Mahaswamigal. This
 teacher, under the guidance of Sri Sri Sri Chandrashekara Bharathi
@@ -56,17 +56,19 @@ hundreds of upanyasams in various cities through the length and breadth
 of the country. She has also given discourses on various topics in
 Singapore, Bahrain, Dubai and USA. Her discourses on all the
 ‘pashurams’ of Tiruppavai was telecast by TTD-SVBC2 Kannada channel
-in the year 2017- https://youtu.be/XKHnEH6xlbk</p>
-<p>She is very eager to teach children wherever she goes. In most places
+in the year 2017.</p>
+<br />
+<p>She was very eager to teach children wherever she goes. In most places
 wherever she gives upanyasams, she has trained local children and
 made them perform dance-dramas and Sanskrit dramas. Her nrityaroopakas on Geethagovindam has attracted a lot of attention and she
 has been hailed for the effort. She has also composed and presented
 short, educative sanskrit dramas on subjects like Ramayana,
 Bhagavatam, Shankara-Digvijaya, and topics related to Sanatana
 Dharma.</p>
+<br />
 <p>The main themes for her discourses (Upanyasams) are on -</p>
 <ul>
-  <li>Geetha-Govindam of Sri Jayadeva Mahakavi,</li>
+<li>Geetha-Govindam of Sri Jayadeva Mahakavi,</li>
 <li> Krishna-Leela-Tarangini of Sri Narayana Teertha</li>
 <li>The Bhagavadgeetha,</li>
 <li> Tiruppavai</li>
@@ -79,12 +81,14 @@ Dharma.</p>
 <li>Vivekachoodamani</li>
 <li>Stothras and Works of Sri Shankara Bhagavatpadaacharya</li>
 </ul>
+<br />
 <p>For the past 40 years, she has been the secretary of Hindu Samaya
 Maadar Manram, a satsang for ladies established under the guidance
 and blessings of Kanchi Shankaracharya Swamigal. This organization
 is spreading the message of bhakti through group prayers, service to
 the needy, Geetha jnana yagna, Rukmini Kalyanam, Radha Kalyanam
 etc.</p>
+<br />
 <p>Being an ardent devotee of Sri Jagannatha of Puri, she, with the cooperation of the devotees conducts Rathayaatraa of Lord Jagannatha
 at Vyalikaval, coinciding with the date of Rathayaatraa at Puri.
 Being a voracious reader of various epics with a language repertoire
@@ -97,12 +101,14 @@ English. Her book in Kannada, giving meanings for all namas of
 ‘Lalitasahasranamam’ has been approved and blessed by the
 Jagadguru of Sringeri. ‘Shaanmatam’ and ‘Prabhavavybhavam’ are
 books of prayers compiled by her.</p>
+<br />
 <p>She is a very dedicated teacher, and one who practices before she
 preaches. Her impeccable character, strict adherence to the principles
 of sanatana dharma, and unshakeable devotion to gurus have inspired
 generations of students. She is as ready to teach varnamala to a kid
 beginning sanskrit, as she is to describe the profound philosophy of
 Viveka Choodamani.</p>
+<br />
 <p>Being the founder and managing trustee of Shri P.N.Ramachandra Iyer
 Trust, she has built a community hall named “Nanda Kishore Bhavan”
 at Vidyaranyapuram, Bangalore. This bhavan is being utilized by people
@@ -123,6 +129,7 @@ inspired by the pristine life and lofty ideals of Smt.Ananthalakshmi
 Natarajan. Thousands of people have discovered a better way of life
 under her guidance at GGSS. The GGSS has several branches in
 Bengaluru and 2 branches in Chennai.</p>
+<br />
 <p>GGSS aims to create an awareness of Indian culture and its values in
 children, and make them true cultural citizens of 'Bhaarata'. It coaches
 students for the sanskrit exams conducted by many reputed
@@ -132,19 +139,27 @@ of Karnataka. The syllabus for shlokas includes many stotras of Adi
 Shankaracharya, the Bhagavadgita, and portions from the epics
 (Sankshepa-ramayanam from Srimadramayanam, Gopika gitam from
 Srimadbhagavatam,) etc.</p>
+<br />
 <p>GGSS also conducts dharmic activities like charity for theneedy, pujas
 during special occasions, rathotsavams, summer camps, annual Interschool competitions(Pratibha), and the like.
 Smt Ananthalakshmi Natarajan has been awarded various titles by
 various organizations. Few of them are listed below –
-Sri Kamakshi Mandali, Kumbakonam - 'Geetha-Govinda-amrutha-varshini'
-Bhaktakavi-Sri Jayadeva Samarohaha- ‘Jayadeva Sri Vani’
-Sri Andavan Swamigal, Andavan Ashramam, Srirangam - 'Vidushi'
-Sri AanthakrishnaswamyTrust, Nagercoil - 'Vagvishaaradaa'
-Sri Melakkaveri Panchapakesha Sastigal, Kumbokonam - 'Abhinava-Meeraa'
-Sri Rama Bhajana Sabha, Bangalore - 'Bhaagavatha-Shiromani'
-Janaseva Bharathi Trust, Bangalore - 'Shaaradaa Award for Upanyasam'
-Rotary Club, Bangalore - Best Teacher Award
-Lions Club, Bangalore - Best Teacher Award
+<ul>
+  <li>Sri Kamakshi Mandali, Kumbakonam - 'Geetha-Govinda-amrutha-varshini'</li>
+  <li>Bhaktakavi-Sri Jayadeva Samarohaha- ‘Jayadeva Sri Vani’</li>
+  <li>Sri Andavan Swamigal, Andavan Ashramam, Srirangam - 'Vidushi'</li>
+  <li>Sri AanthakrishnaswamyTrust, Nagercoil - 'Vagvishaaradaa'</li>
+  <li>Sri Melakkaveri Panchapakesha Sastigal, Kumbokonam - 'Abhinava-Meeraa'</li>
+  <li>Sri Rama Bhajana Sabha, Bangalore - 'Bhaagavatha-Shiromani'</li>
+  <li>Janaseva Bharathi Trust, Bangalore - 'Shaaradaa Award for Upanyasam'</li>
+  <li>Rotary Club, Bangalore - Best Teacher Award</li>
+  <li>Rotary Club, Bangalore - Best Teacher Award</li>
+  <li>Lions Club, Bangalore - Best Teacher Award</li>
+
+</ul>
+
+<br />
+
 On November 2nd, 2023 – Maatha attained the lotus feet of
 Bhagavan Jagannatha.</p>
 

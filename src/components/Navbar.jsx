@@ -58,7 +58,7 @@ export default function Navbar() {
             <NavLink to="/activities" className={({ isActive }) => isActive ? "active" : ""}>Activities</NavLink>
             {/* <NavLink to="/events" className={({ isActive }) => isActive ? "active" : ""}>Events & Gallery</NavLink> */}
             {/* <Link onClick={scrollToFooter}>Contact Us</Link> */}
-            <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact Us</NavLink>
+            <NavLink to="/branches" className={({ isActive }) => isActive ? "active" : ""}>Branches</NavLink>
           </div>
           <div className='navbar__actions'>
             <Link to="/donate" className="action-btn donate">Donate</Link>

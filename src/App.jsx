@@ -38,7 +38,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<AboutUsPage />} />
             <Route path="/activities" element={<ActivitiesPage />} />
-            <Route path="/branches" element={<BranchesPage />} />
+            {/* <Route path="/branches" element={<BranchesPage />} /> */}
             <Route path="/classes" element={<ClassesPage />} />
             <Route path="/donate" element={<DonatePage />} />
             <Route path="/events" element={<EventsPage />} />
@@ -49,7 +49,7 @@ function App() {
             <Route path="/studymaterial" element={<StudyMaterialPage />} />
             <Route path="/summercamp" element={<SummerCampPage />} />
             <Route path="/annualday" element={<AnnualDayPage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/branches" element={<ContactPage />} />
           </Routes>
         </div>
         <Footer />

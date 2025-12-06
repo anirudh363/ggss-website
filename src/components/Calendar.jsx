@@ -72,21 +72,21 @@
 
 import React, { useState, useEffect } from "react";
 import "./carousel.css"; // <-- create this file
-import img1 from "../assets/invite-1.jpeg";
-import img2 from "../assets/invite-2.jpeg";
-import img3 from "../assets/invite-3.jpeg";
+import img1 from "../assets/invite-0.jpeg";
+import img2 from "../assets/invite-1.jpeg";
+import img3 from "../assets/invite-2.jpeg";
 
 export default function Calendar() {
   const images = [img1, img2, img3];
   const [index, setIndex] = useState(0);
 
   // Auto slide every 4 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % images.length);
-    }, 4000);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   // const interval = setInterval(() => {
+  //   //   setIndex((prev) => (prev + 1) % images.length);
+  //   // }, 4000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <section className="carousel-section">
