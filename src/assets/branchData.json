@@ -1,23 +1,46 @@
 [
   {
     "name": "Vyalikaval",
-    "head": "Lakshman Raghuram",
-    "contact": "+91 98765 43210",
+    "year": "1976",
+    "description": "The branch at Vyalikaval is the mother center of GGSS. GGSS was established in Vyalikaval, and this branch is personally supervised by our Guru Maata.",
+    "head": "Lakshman",
+    "contact": "+91 9449835722",
+    "venue": "Vyalikaval Education Society, Behind Chowdiah Memorial Hall, Vyalikaval, Bangalore - 560003.",
+    "timings": "Every Sunday, 7.00 AM to 9.00 AM",
     "address": "Vyalikaval, Bangalore",
     "map": "https://maps.google.com/?q=Vyalikaval+Bangalore"
   },
   {
-    "name": "Vijayanagar",
-    "head": "Def",
-    "contact": "+91 98765 12345",
-    "address": "Vijayanagar, Bangalore",
-    "map": "https://maps.google.com/?q=Vijayanagar+Bangalore"
+    "name": "Siddhashrama Malleshwaram",
+    "year": "1976",
+    "description": "The branch at Malleshwaram is headed by Smt. Prema, trained by Smt. Ananthalakshmi Natarajan. Classes have been held for over five years at Siddhashrama, training more than twenty-five children and women in Bhagavadgita, shlokas, stotras, Soundaryalahari, Shivanandalahari and bhajans.",
+    "head": "Smt. Prema",
+    "contact": "+91 80 23344147",
+    "venue": "Siddhashrama, 17th cross, 1st Main, Malleshwaram, Bangalore.",
+    "timings": "Daily 6 PM to 7 PM",
+    "address": "Malleshwaram, Bangalore",
+    "map": "https://maps.google.com/?q=Malleshwaram+Bangalore"
   },
   {
-    "name": "Sahakaranagara",
-    "head": "Xyz",
-    "contact": "+91 98765 99887",
-    "address": "Nanganallur, Chennai",
-    "map": "https://maps.google.com/?q=Nanganallur+Chennai"
+    "name": "Vijayanagar",
+    "year": "1995",
+    "description": "The branch at Vijayanagar is the first sub-branch of GGSS established by Sri. T R Panchukrishnan.",
+    "head": "Smt. Satyabama",
+    "contact": "+91 99804 89273",
+    "venue": "Blue Bell Public School, 1st Main Road, Anubhava Nagar, Nagarbhavi, near Canara Bank Colony Park, Bangalore 560072.",
+    "timings": "Every Sunday, 7.00 AM to 10.00 AM",
+    "address": "Vijayanagar, Bangalore",
+    "map": "https://maps.google.com/?q=Blue+Bell+Public+School+Nagarbhavi+Bangalore"
+  },
+  {
+    "name": "SRGGSS Basaveshvaranagar",
+    "year": "1996",
+    "description": "The branch at Basaveshvaranagar is well known as Sita Rama Sangha. Slokas and stotras are taught to people of all age groups for the past 25 years.",
+    "head": "Smt. Srividya",
+    "contact": "+91 9945884365",
+    "venue": "No.86, Gruhalakshmi Layout, Krishna Road, 1st Stage, Basaveshvaranagar, Bangalore - 560079.",
+    "timings": "Monday to Friday, 6.00 PM to 7.00 PM",
+    "address": "Basaveshvaranagar, Bangalore",
+    "map": "https://maps.google.com/?q=Basaveshvaranagar+Bangalore"
   }
 ]

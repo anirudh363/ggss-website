@@ -10,6 +10,9 @@ import Pratibha from '../components/Pratibha.jsx';
 import Camp from '../components/Camp.jsx';
 import Annual from '../components/Annual.jsx';
 import Guru from '../components/Guru.jsx';
+import Jagannatha from '../components/Jagannatha.jsx';
+import Shankara from '../components/Shankara.jsx';
+import Navaratri from '../components/Navaratri.jsx';
 
 export default function ActivitiesPage() {
   return (
@@ -22,7 +25,7 @@ export default function ActivitiesPage() {
 
             <ActivitiesTabs 
         literaryComponents={[Pratibha, Camp, Annual]}
-        culturalComponents={[Guru]} 
+        culturalComponents={[Guru, Jagannatha, Shankara, Navaratri]} 
       />
       
       <section className="about component">

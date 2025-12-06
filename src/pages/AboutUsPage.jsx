@@ -45,27 +45,75 @@ export default function AboutUsPage() {
 
       <Maatha />
       
+<section className="about component">
+  <div className="about__text">
+    <span className="subheading">Our learning model</span>
 
-      <section className="about component"><div className="about__text">
-        <span className="subheading">Our learning model</span>
-         
-         <p>
-          The Sura-Saraswathi-Sabha, established by H.H Shri Shri Shri Abhinava Vidyateertha Swamiji, conducts basic Sanskrit exams at five levels, which prepares students to enter into a serious study of Sanskrit kavyas and shastras. Smt Ananthalakshmi Natarajan uses these texts as the guideline and prepares students to take up these exams. She also trains them for taking up the Saral Sanskrit series of exams conducted by Bharatiya Vidya Bhavan.
-        </p>
-        <p>
-          Through the years, she has taught hundreds of students, many of whom, in turn, became teachers and are teaching junior students of the sangha. As the number of students increased, the venue was shifted from her home to TTD, where classes were held for several years, after which the venue was shifted to larger premises of Vyalikaval Education Society, located in the same neighbourhood. The first branch of GGSS was started in 1996 in Vijayanagar, by Shri T R Panchukrishnan, under her guidance. Later, as students who learnt from her moved to various parts of Bangalore, further branches were set up in Chickpet, Vidyaranyapura, Dollars Colony, Wilson Garden, Malleshwaram, Thindlu, Mathikere, Prashantnagar and Soundaryanagar layouts in Bangalore. The first branch outside Bangalore was established by Shri.Hariharan in Chennai (Nanganallur) in 2003. A second branch in Chennai has been running for the past year, set up by one of his students. There is also a branch which was set up in Satyamangalam in Salem, earlier this year. Branches have also come up in Hyderabad and Mumbai, the two other major metropolitan cities of South India.
-        </p>
-        <br />
-        <p>
-          All branches of GGSS are being maintained under the guidelines established by Smt. Ananthalakshmi Natarajan. Stutikusumanjali, Bhagavadgita and texts of SSS are the standard portions taught. It is ensured that a basic minimum standard is established and followed everywhere in teaching.
-        </p>
-        <br />
-        <p>
-          The students of GGSS have been participating in various competitions conducted by organisations such as the Chitrapore Math, many schools and colleges in Bangalore, and have always bagged prizes. They have been commended for their clarity of pronounciation, dedication and devotion. Recitation of shlokas, Antyakshari, Mythological Dumb Charades, etc are some of the events at which our students excel. They also secure excellent marks in the examinations which we coach for. GGSS has recorded 100% results regularly. But more important than any of these, our students are appreciated because they have imbibed the humility and equanimity that our mother teaches - 'sukha-dukhe same krtvaa' - is what she tries to instill in every student who enters GGSS. It is not just Sanskrit or the shlokas, but an attitude to be imbibed for greater quality of life, that our sangha strives to drive in.
-        </p>
-        </div>
-      </section>
-    
+    <p>
+      The chanting of Srimad-Bhagavadgita and many selected shlokas from a book
+      compiled by Maata named Stutikusumanjali are being taught in every class.
+    </p>
+
+    <p>
+      The Sura-Saraswathi-Sabha, established by Shri Jeshtha Mahasannidhanam,
+      conducts basic Sanskrit exams at five levels, which prepares students to
+      enter into a serious study of Sanskrit kavyas and shastras. GGSS uses these
+      texts as the guideline and prepares students to take up these exams. It also
+      trains them for taking up the Saral Sanskrit series of exams conducted by
+      Bharatiya Vidya Bhavan.
+    </p>
+
+    <p>
+      Through the years, thousands of students have been taught, many of whom,
+      in turn, have become teachers and are teaching junior students of the
+      sangha. As the number of students increased, the venue was shifted from
+      Maata's home to TTD, where classes were held for several years, after which
+      the venue was shifted to larger premises of Vyalikaval Education Society,
+      located in the same neighbourhood. The first branch of GGSS was started in
+      1995 in Siddhashrama (Malleshwaram) and the second in 1996 at Vijayanagar,
+      by Shri T R Panchukrishnan, under Maata's guidance. Later, as students who
+      learnt from her moved to various parts of Bangalore, further branches were
+      set up in Chickpet, Vidyaranyapura, Dollars Colony, Wilson Garden,
+      Shakarnagar etc. The first branch outside Bangalore was established by
+      Shri Hariharan in Chennai (Nanganallur) in 2003. A second branch in Chennai
+      was run for some years, set up by one of his students. There is also a
+      branch which was set up in Satyamangalam in Salem, earlier this year.
+      Branches have also come up in Hyderabad and Mumbai, the two other major
+      metropolitan cities of South India. However, only a few are functional
+      currently.
+    </p>
+
+    <br />
+
+    <p>
+      All branches of GGSS are being maintained under the guidelines established
+      by Maata. Stutikusumanjali, Bhagavadgita and texts of Sura Saraswati Exams
+      are the standard portions taught. It is ensured that a basic minimum
+      standard is established and followed everywhere in teaching. Some senior
+      students and interested parents are also trained for the Bharatiya Vidyabhavan
+      Bhagavadgita Exams for the past 51 years.
+    </p>
+
+    <br />
+
+    <p>
+      The students of GGSS have been participating in various competitions
+      conducted by organisations such as the Chitrapore Math, many schools and
+      colleges in Bangalore, and have always bagged prizes. They have been
+      commended for their clarity of pronunciation, dedication and devotion.
+      Recitation of shlokas, Antyakshari, Mythological Dumb Charades, etc., are
+      some of the events at which our students excel. They also secure excellent
+      marks in the examinations which we coach for. GGSS has recorded 100%
+      results regularly. But more important than any of these, our students are
+      appreciated because they have imbibed the humility and equanimity that our
+      mother teaches — "सुख दुःखे समे कृत्वा", "अद्वेष्टा सर्वभूतानाम्" — is
+      what she tries to instil in every student who enters GGSS. It is not just
+      Sanskrit or the shlokas, but an attitude to be imbibed for greater quality
+      of life, that our sangha strives to instill.
+    </p>
+  </div>
+</section>
+
       
 
       
