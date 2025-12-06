@@ -250,6 +250,9 @@ html, body {
   flex-wrap: wrap;
 }
 
+.abh {
+  text-align: center;
+}
 .about__image img {
   width: 100%;
   max-width: 300px;
@@ -261,6 +264,36 @@ html, body {
 .about__text {
   font-size: 1.5rem;
 }
+
+/* Only for the Inspiration section */
+.about--inspiration .about__flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about--inspiration .about__image img {
+  width: 280px;   /* adjust as needed */
+  border-radius: 10px;
+  float: left;
+}
+
+.about--inspiration .about__text {
+  flex: 1;
+}
+
+/* Mobile-optimized */
+@media (max-width: 768px) {
+  .about--inspiration .about__flex {
+    flex-direction: column;
+  }
+
+  .about--inspiration .about__image img {
+    width: 100%;
+    float: none;
+  }
+}
+
 
 .maatha__text {
   max-width: 700px;

@@ -50,6 +50,7 @@
 
 
 .open-btn {
+  font-family: "Noto Serif Devanagari", serif;
   position: relative;
   z-index: 10000;
   padding: 0.7rem 1.5rem;
