@@ -43,7 +43,12 @@ export default function AboutUsPage() {
       </div>
       </section>
 
+      <Maatha />
+      
+
       <section className="about component"><div className="about__text">
+        <span className="subheading">Our learning model</span>
+         
          <p>
           The Sura-Saraswathi-Sabha, established by H.H Shri Shri Shri Abhinava Vidyateertha Swamiji, conducts basic Sanskrit exams at five levels, which prepares students to enter into a serious study of Sanskrit kavyas and shastras. Smt Ananthalakshmi Natarajan uses these texts as the guideline and prepares students to take up these exams. She also trains them for taking up the Saral Sanskrit series of exams conducted by Bharatiya Vidya Bhavan.
         </p>
@@ -62,8 +67,7 @@ export default function AboutUsPage() {
       </section>
     
       
-<Maatha />
-      
+
       
       <BackToTop />
     </div>
