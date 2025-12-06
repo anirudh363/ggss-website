@@ -36,9 +36,9 @@ export default function JoinUsPage() {
             <a href="https://www.instagram.com/sanskrit_ggss" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="mailto:sanskritggss@gmail.com">
+            {/* <a href="mailto:sanskritggss@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} />
-            </a>
+            </a> */}
             <a href="https://whatsapp.com/channel/0029VbATgxCFcowDkIDVwN2s">
               <FontAwesomeIcon icon={faWhatsapp} />
             </a>
