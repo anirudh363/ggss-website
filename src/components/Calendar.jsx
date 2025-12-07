@@ -72,12 +72,17 @@
 
 import React, { useState, useEffect } from "react";
 import "./carousel.css"; // <-- create this file
+import imgsans0 from "../assets/invite-sans-0.png";
+import imgsans1 from "../assets/invite-sans-1.png";
+import imgsans2 from "../assets/invite-sans-2.png";
+import imgsans3 from "../assets/invite-sans-3.png";
+
 import img1 from "../assets/invite-0.jpeg";
 import img2 from "../assets/invite-1.jpeg";
 import img3 from "../assets/invite-2.jpeg";
 
 export default function Calendar() {
-  const images = [img1, img2, img3];
+  const images = [imgsans0, imgsans1, imgsans2, imgsans3, img1, img2, img3];
   const [index, setIndex] = useState(0);
 
   // Auto slide every 4 seconds
