@@ -33,7 +33,7 @@ export default function Sidebar({ onClose }) {
         {/* <NavLink to="/branches" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Branches</NavLink> */}
         <NavLink to="/activities" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Activities</NavLink>
         {/* <NavLink to="/events" className={({ isActive }) => isActive ? "active" : ""}>Events & Gallery</NavLink> */}
-        <NavLink to="/branches" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Bracnhes</NavLink>
+        <NavLink to="/branches" onClick={onClose} className={({ isActive }) => isActive ? 'active' : ''}>Branches</NavLink>
       </div>
       <div className="sidebar__actions">
         <Link to="/donate" className="action-btn donate" onClick={onClose}>Donate</Link>
