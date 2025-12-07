@@ -25,10 +25,10 @@ function App() {
   const [showBanner, setShowBanner] = useState(true);
   return (
     <div className="app-wrapper">
-       {/* <CurtainBanner
+       <CurtainBanner
         isVisible={showBanner}
         onClose={() => setShowBanner(false)}
-      /> */}
+      />
       <Router>
         <Navbar />
         <div className="main-content site-content">

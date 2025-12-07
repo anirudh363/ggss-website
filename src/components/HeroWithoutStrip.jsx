@@ -5,7 +5,7 @@ export default function HeroWithoutStrip({ page }) {
     <section className="hero nostrip">
       <div className="hero__top">
         
-        <p className='hero__shree sanskrit'>|| श्रीः ||</p>
+        <p className='hero__shree sanskrit'>॥ श्रीः ॥</p>
         <h1 className='hero__title'>{ page.title }</h1>
         
       </div>

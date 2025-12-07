@@ -68,3 +68,14 @@
   color: var(--accent-color);
   transform: scale(1.05);
 }
+
+
+.jagadguru-img {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  z-index: 9999;
+  border-radius: 2rem;
+}
