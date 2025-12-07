@@ -8,7 +8,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 export default function JoinUsPage() {
   return (
     <div className="joinus-page page">
-      <HeroWithoutStrip page={{ title: "" }} />
+      <HeroWithoutStrip page={{ title: "Join Us Today" }} />
 
       <section className="contact-details big-sections">
         

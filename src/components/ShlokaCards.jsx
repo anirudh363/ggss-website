@@ -27,7 +27,7 @@ const shlokas = [
       "मेघैर्मेदुरमम्बरं वनभुवः श्यामास्तमालद्रुमैः\n" +
       "नक्तं भीरुरयं त्वमेव तदिमं राधे गृहं प्रापय ।\n" +
       "इत्थं नन्दनिदेशितश्चलितयोः प्रत्यध्वकुञ्जद्रुमं\n" +
-      "राधामाधवयोर्जयन्ति यमुनाकूले रहःकेलयः ॥ १ ॥",
+      "राधामाधवयोर्जयन्ति यमुनाकूले रहः केलयः ॥ १ ॥",
     meaning: "Glory to the secret divine sports of Radha and Madhava near the Yamuna, as guided by Nanda.",
   },
 ];
@@ -39,8 +39,8 @@ export default function ShlokaCards() {
         {shlokas.map((shloka, index) => (
           <div className="shloka-card" key={index}>
             <img src={shloka.image} alt={shloka.title} className="shloka-image" />
-            <h3 className="shloka-title">{shloka.title}</h3>
-            <pre className="shloka-text">{shloka.text}</pre>
+            <h3 className="shloka-title sanskrit">{shloka.title}</h3>
+            <pre className="shloka-text sanskrit">{shloka.text}</pre>
             <p className="shloka-meaning">{shloka.meaning}</p>
           </div>
         ))}

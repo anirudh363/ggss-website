@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import BackToTop from '../components/BackToTop.jsx';
 import HeroWithoutStrip from '../components/HeroWithoutStrip.jsx';
-import BranchCard from '../components/BranchCard.jsx';
+import BranchCard from '../components/BranchCards.jsx';
 import branches from '../assets/branchData.json'
 
 export default function ClassesPage() {

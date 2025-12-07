@@ -1,21 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./CurtainBanner.css";
-import VidImg from "../assets/vid.png"
+import BannerImg from "../assets/release.png"; // your Canva image
 
 export default function CurtainBanner({ isVisible, onClose }) {
   return (
-    <div className={`curtain-banner ${isVisible ? "show" : "hide"}`}>
-
-      <img 
-        src={VidImg}
-        alt="Sringeri Jagadguru"
-        className="jagadguru-img"
-      />
-
-
-      <div className="left-curtain"></div>
-      <div className="right-curtain"></div>
-
+    <div
+      className={`curtain-banner ${isVisible ? "show" : "hide"}`}
+      style={{ backgroundImage: `url(${BannerImg})` }}
+    >
       <button className="open-btn" onClick={onClose}>
         लोकार्पणम्
       </button>

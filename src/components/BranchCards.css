@@ -1,0 +1,119 @@
+:root {
+  /* Your Provided Colors */
+  --primary-color: #e0d7c8;
+  --secondary-color: #b83a00;
+  --accent-color: #9d0658;
+  --light-color: #fcf0e9;
+  --secondary-light-color: #fefae0;
+  --text-color: #976149;
+}
+
+.branch-grid {
+  display: grid;
+  /* Responsive grid: min 350px width, max 1fr */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.branch-card {
+  background-color: var(--secondary-light-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(151, 97, 73, 0.15);
+  padding: 2rem;
+  border-top: 6px solid var(--secondary-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensures all cards in a row match height */
+}
+
+.branch-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(151, 97, 73, 0.25);
+}
+
+.branch-header {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 1rem;
+}
+
+.branch-header h3 {
+  margin: 0;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-family: serif; /* Assuming a traditional feel */
+}
+
+.branch-desc {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.branch-details {
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+  flex-grow: 1; /* Pushes the button to the bottom */
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.icon-label {
+  min-width: 25px; /* Space for an icon if you add one later */
+  font-weight: bold;
+  color: var(--accent-color);
+  margin-right: 10px;
+}
+
+.detail-content {
+  color: var(--text-color);
+}
+
+.detail-content a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.detail-content a:hover {
+  text-decoration: underline;
+}
+
+.map-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: var(--accent-color);
+  color: var(--light-color);
+  padding: 0.8rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+}
+
+.map-btn:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+/* Mobile check */
+@media (max-width: 600px) {
+  .branch-grid {
+    grid-template-columns: 1fr;
+  }
+}

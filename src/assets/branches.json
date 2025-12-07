@@ -1,0 +1,101 @@
+[
+  {
+    "id": "vyalikaval",
+    "branchName": "Vyalikaval",
+    "description": "Established in Vyalikaval, this branch is personally supervised by our guru, Smt. Ananthalakshmi Natarajan.",
+    "contactPerson": "Lakshman",
+    "phone": "+91 9449835722",
+    "email": "",
+    "address": "Vyalikaval Education Society, Behind Chowdiah Memorial Hall, Vyalikaval, Bangalore - 560003",
+    "timings": "Every Sunday, 7.00 AM to 9.00 AM",
+    "mapQuery": "Vyalikaval Education Society Bangalore"
+  },
+  {
+    "id": "vijayanagar",
+    "branchName": "Vijayanagar",
+    "description": "The first sub-branch of GGSS, established in 1996 by Sri. T R Panchukrishnan.",
+    "contactPerson": "Smt. Satyabama",
+    "phone": "+91 99804 89273",
+    "email": "",
+    "address": "Blue Bell Public School, 1st Main Road, Anubhava Nagar, Nagarbhavi, (near Canara Bank Colony Park) Bangalore 560072",
+    "timings": "Every Sunday, 7.00 AM to 10.00 AM",
+    "mapQuery": "Blue Bell Public School Anubhava Nagar Bangalore"
+  },
+  {
+    "id": "basaveshvaranagar",
+    "branchName": "SRGGSS Basaveshvaranagar",
+    "description": "Known as Sita Rama Sangha. Slokas and stotras have been taught here to people of all age groups for over 18 years.",
+    "contactPerson": "",
+    "phone": "+91 9945884365",
+    "email": "",
+    "address": "No.86, Gruhalakshmi Layout, Krishna Road, 1st Stage, Basaveshvaranagar, Bangalore - 560079",
+    "timings": "Monday to Friday, 6.00 PM to 7.00 PM",
+    "mapQuery": "Gruhalakshmi Layout Basaveshvaranagar Bangalore"
+  },
+  {
+    "id": "malleshwaram_shankar",
+    "branchName": "Sringeri Shankar Mutt Malleshwaram",
+    "description": "Soundaryanagar branch started by Sri. Muralidhara Sharma.",
+    "contactPerson": "Sri. Muralidhara Sharma",
+    "phone": "+91 9343750778",
+    "email": "",
+    "address": "101, Between 9th and 11th cross, 6th Main Rd, Malleshwaram, Bengaluru, Karnataka 560003",
+    "timings": "",
+    "mapQuery": "6th Main Rd Malleshwaram Bengaluru 560003"
+  },
+  {
+    "id": "malleshwaram_siddhashrama",
+    "branchName": "Siddhashrama Malleshwaram",
+    "description": "Classes held for over 5 years. Training in Bhagavadgita, Soundaryalahari, Shivanandalahari and bhajans.",
+    "contactPerson": "Smt. Prema",
+    "phone": "+91 80 23344147",
+    "email": "",
+    "address": "Siddhashrama, 17th cross, 1st Main, Malleshwaram, Bangalore",
+    "timings": "Daily 6 PM to 7 PM",
+    "mapQuery": "Siddhashrama Malleshwaram Bangalore"
+  },
+  {
+    "id": "dollars_colony",
+    "branchName": "Dollars Colony",
+    "description": "Running for the past six years under the guidance of Smt. Ananthalakshmi Natarajan.",
+    "contactPerson": "Smt. Usha Ashok",
+    "phone": "+91 9448085055",
+    "email": "",
+    "address": "",
+    "timings": "",
+    "mapQuery": ""
+  },
+  {
+    "id": "sahakarnagar",
+    "branchName": "Sahakarnagar",
+    "description": "Started by Sri. Manjunath Shandilaya and Smt. Parimala Shandilya.",
+    "contactPerson": "Sri. Manjunath Shandilaya",
+    "phone": "+91 9945282015",
+    "email": "",
+    "address": "Sukruthi, 2393, E block, 11th Main, 14th Cross, Sahakaranagara, Bangalore - 560092",
+    "timings": "",
+    "mapQuery": "Sukruthi Sahakaranagara Bangalore"
+  },
+  {
+    "id": "rajajinagar",
+    "branchName": "Rajajinagar",
+    "description": "",
+    "contactPerson": "V Kameswari Balasubramanian",
+    "phone": "+91 9980135302",
+    "email": "",
+    "address": "#1388, II stage, III 'B' main, E - Block, Rajajinagar, Bangalore - 560010",
+    "timings": "Weekdays 5 PM to 6 PM",
+    "mapQuery": "Rajajinagar Bangalore 560010"
+  },
+  {
+    "id": "vidyaranyapura",
+    "branchName": "Vidyaranyapura",
+    "description": "",
+    "contactPerson": "Smt. Shubha Shastry",
+    "phone": "9481905574",
+    "email": "shusastry@gmail.com",
+    "address": "No.15, 3rd A main, 1st cross, Balaji Layout, Vidyaranyapura, Bangalore - 560097",
+    "timings": "Monday to Friday - 6 PM to 7 PM",
+    "mapQuery": "Balaji Layout Vidyaranyapura Bangalore"
+  }
+]
