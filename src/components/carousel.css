@@ -1,3 +1,4 @@
+/* --- MAIN CONTAINER --- */
 .carousel-section {
   width: 100%;
   display: flex;
@@ -7,39 +8,52 @@
 
 .carousel-container {
   width: 100%;
-  max-width: 380px; /* Portrait-friendly */
+  max-width: 380px;
   position: relative;
 }
 
+/* --- IMAGE --- */
 .carousel-image {
   width: 100%;
   height: auto;
-  aspect-ratio: 3 / 5;   /* Portrait aspect ratio */
-  object-fit: contain;   /* Prevents cropping */
+  aspect-ratio: 3 / 5;
+  object-fit: contain;
   border-radius: 12px;
-  background: #000;       /* Looks good behind portrait images */
+  background: #000;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
   transition: opacity 0.5s ease-in-out;
 }
 
-/* Dots */
-.carousel-dots {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.dot {
-  height: 12px;
-  width: 12px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
+/* --- ARROWS --- */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.4);
+  color: black;
+  border: none;
+  width: 40px;
+  height: 60px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease;
 }
 
-.dot.active {
-  background-color: #444;
-  transform: scale(1.2);
+.carousel-arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* left and right positions */
+.left-arrow {
+  left: -3rem;
+}
+
+.right-arrow {
+  right: -3rem;
 }

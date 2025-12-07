@@ -94,21 +94,31 @@ export default function Calendar() {
   // }, []);
 
   return (
-    <section className="carousel-section">
-      <div className="carousel-container">
-        <img src={images[index]} alt="Slide" className="carousel-image" />
+     <section className="carousel-section">
+    <div className="carousel-container">
 
-        {/* Navigation dots */}
-        <div className="carousel-dots">
-          {images.map((_, i) => (
-            <span
-              key={i}
-              className={`dot ${i === index ? "active" : ""}`}
-              onClick={() => setIndex(i)}
-            ></span>
-          ))}
-        </div>
-      </div>
-    </section>
+      {/* Left Arrow */}
+      <button
+        className="carousel-arrow left-arrow"
+        onClick={() =>
+          setIndex((prev) => (prev - 1 + images.length) % images.length)
+        }
+      >
+        ‹
+      </button>
+
+      {/* Image */}
+      <img src={images[index]} alt="Slide" className="carousel-image" />
+
+      {/* Right Arrow */}
+      <button
+        className="carousel-arrow right-arrow"
+        onClick={() => setIndex((prev) => (prev + 1) % images.length)}
+      >
+        ›
+      </button>
+
+    </div>
+  </section>
   );
 }
