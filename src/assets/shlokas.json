@@ -12,7 +12,7 @@ const shlokas = [
     title: "दैनन्दिन स्तुतिकुसुमाञ्जलिः",
     text: 
       "गुरुरेव गतिः गुरुमेव भजे गुरुणैव सहास्मि नमो गुरवे ।\n" +
-      "नगुरोः परमं शिशुरस्मि गुरोः मतिरस्ति गुरौ मम पाहि गुरो ॥",
+      "न गुरोः परमं शिशुरस्मि गुरोः मतिरस्ति गुरौ मम पाहि गुरो ॥",
     meaning: "Guru is everything; I worship only the Guru. I am but a child of the Guru—protect me, O Guru!",
   },
   {

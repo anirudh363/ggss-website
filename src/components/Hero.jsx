@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="hero__sanskrit hero__sanskrit--left sanskrit">
           <p>राम राम राम<br />राधे श्याम</p>
         </div>
-        <p className='hero__shree sanskrit'>श्रीः</p>
+        <p className='hero__shree sanskrit'>|| श्रीः ||</p>
         
         <h1 className="hero__title hero__title-strip sanskrit">गीत-गोविन्द-संस्कृत-सङ्घः <br /> <span className='english__title'>GEETA GOVINDA SAMSKRUTA SANGHA</span></h1>
         <div className="hero__sanskrit hero__sanskrit--right sanskrit">
