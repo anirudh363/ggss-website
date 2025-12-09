@@ -6,13 +6,13 @@ export default function Hero() {
     <section className="hero">
       <div className="hero__top">
         <div className="hero__sanskrit hero__sanskrit--left sanskrit">
-          <p>राम राम राम<br />राधे श्याम</p>
+          <p>राम राम राम<br />सद्गुरो पाहि</p>
         </div>
         <p className='hero__shree sanskrit'>॥ श्रीः ॥</p>
         
         <h1 className="hero__title hero__title-strip sanskrit">गीत-गोविन्द-संस्कृत-सङ्घः <br /> <span className='english__title'>GEETA GOVINDA SAMSKRUTA SANGHA</span></h1>
         <div className="hero__sanskrit hero__sanskrit--right sanskrit">
-          <p>सद्गुरो पाहि<br />परमदयालो पाहि</p>
+          <p>राधे श्याम<br />परमदयालो पाहि</p>
         </div>
         
       </div>
